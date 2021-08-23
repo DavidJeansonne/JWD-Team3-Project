@@ -1,0 +1,101 @@
+#introduction {
+  
+  text-align: center;
+}
+#introduction img{
+border: 5px solid #555;
+}
+#mainMenu {
+	width:900px;
+	font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  color:beige;
+}
+
+h1 {
+	font-family: sans-serif;
+  color:beige;
+}
+
+#mainMenu li {
+	display:block;
+	width:100px;
+	float:left;
+	text-align: right;
+  color: white;
+  align-items: right;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	color:white;
+}
+
+#mainMenu a:hover {
+	background-color:#009;
+	color:#fff;
+}
+
+h1 {
+  background: #00CCFF;
+  background: -moz-linear-gradient(-45deg, #00CCFF 0%, #0000FF 100%);
+  background: -webkit-linear-gradient(-45deg, #00CCFF 0%, #0000FF 100%);
+  background: linear-gradient(135deg, #00CCFF 0%, #0000FF 100%);
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+h2 {
+  color: #00CCFF;
+  border: 3px solid #0000FF;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+ {
+  align-content: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    display: grid;
+    text-align: center;
+}
+
+.carousel-item {
+  max-width: 500px;
+  max-height: 800px;
+  justify-content: center;
+}
+
+#name {
+  margin: 0px 30px;
+  text-align: center;
+  display: flex;
+}
+
+#add {
+  margin: 0px 30px;
+  text-align: center;
+  display: flex;
+}
+
+#loc {
+  margin: 0px 30px;
+  text-align: center;
+  display: flex;
+}
+#phone {
+  margin: 0px 20px;
+  text-align: center;
+  display: flex;
+  align-self: end;
+}
